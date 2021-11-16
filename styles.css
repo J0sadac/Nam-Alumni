@@ -1,5 +1,5 @@
 body {
-  background-color: #ffff;
+  background-color: #fffbf7;
 }
 
 .barra-nav {
@@ -17,6 +17,21 @@ body {
 }
 .barra-nav .nav-principal .nav-menu .nav-config li img {
   width: 25px;
+}
+
+.articulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.articulos .contenedor {
+  margin: 20px 20px;
+  width: 18rem;
+}
+.articulos .contenedor .contenido .boton {
+  background-color: sandybrown;
+  border-color: sandybrown;
 }
 
 @media (max-width: 1020px) {
