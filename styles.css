@@ -1,11 +1,51 @@
 body {
-  background-color: black;
+  background-color: #ffff;
 }
 
-.nav-horizontal .nav-principal {
-  display: flex;
-  justify-content: space-between;
-  background-color: blue;
+.barra-nav {
+  background-color: sandybrown !important;
+}
+.barra-nav .nav-principal .nav-menu .nav-buscador {
+  margin-left: 50px;
+}
+.barra-nav .nav-principal .nav-menu .nav-buscador .buscador {
+  margin-left: 180px;
+  padding-right: 300px;
+}
+.barra-nav .nav-principal .nav-menu .nav-config li {
+  margin: 0px 6px;
+}
+.barra-nav .nav-principal .nav-menu .nav-config li img {
+  width: 25px;
+}
+
+.recomendaciones {
+  background-color: plum;
+  float: right;
+  height: 700px;
+}
+.recomendaciones .articulo {
+  margin-top: 25px;
+  width: 16rem;
+}
+
+@media (max-width: 1020px) {
+  .barra-nav {
+    background-color: sandybrown !important;
+  }
+  .barra-nav .nav-principal .nav-menu .nav-buscador {
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  .barra-nav .nav-principal .nav-menu .nav-buscador .buscador {
+    margin-left: -5px;
+    padding-right: 100px;
+  }
+  .barra-nav .nav-principal .nav-menu .nav-config {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
