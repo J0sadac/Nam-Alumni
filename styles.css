@@ -1,3 +1,27 @@
+.articulo {
+  display: flex;
+  justify-content: center;
+}
+.articulo .contenido {
+  margin: 40px;
+  background-color: #ffff;
+  width: 900px;
+  box-shadow: 1px 1px 6px;
+}
+.articulo .contenido .titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  margin: 30px 50px;
+}
+.articulo .contenido .contenido-art {
+  margin: 20px 50px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.articulo .contenido .contenido-art img {
+  margin-top: 15px;
+  width: 200px;
+}
+
 body {
   background-color: #fffbf7;
 }
@@ -11,6 +35,13 @@ body {
 .barra-nav .nav-principal .nav-menu .nav-buscador .buscador {
   margin-left: 180px;
   width: 500px;
+  border-color: sandybrown;
+}
+.barra-nav .nav-principal .nav-menu .nav-buscador .boton {
+  border-color: #9e3307;
+}
+.barra-nav .nav-principal .nav-menu .nav-buscador .boton:hover {
+  background-color: #9e3307;
 }
 .barra-nav .nav-principal .nav-menu .nav-config li {
   margin: 0px 6px;
@@ -19,19 +50,30 @@ body {
   width: 25px;
 }
 
-.articulos {
+.sugerencia {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
-.articulos .contenedor {
-  margin: 20px 20px;
+.sugerencia .contenedor {
+  margin: 35px 25px;
   width: 18rem;
 }
-.articulos .contenedor .contenido .boton {
+.sugerencia .contenedor .contenido .titulo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sugerencia .contenedor .contenido .texto {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sugerencia .contenedor .contenido .boton {
   background-color: sandybrown;
   border-color: sandybrown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sugerencia .contenedor:hover {
+  margin-top: 10px;
 }
 
 @media (max-width: 1020px) {

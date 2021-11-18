@@ -1,0 +1,31 @@
+@use "global" as *;
+
+.articulo{
+    display: flex;
+    justify-content: center;
+
+    .contenido{
+        margin: 40px;
+        background-color: #ffff;
+        width: 900px;
+        box-shadow: 1px 1px 6px;
+        
+        .titulo{
+            font-family: $font-p;
+            font-size: 48px;
+
+            margin: 30px 50px;
+        }
+
+        .contenido-art{
+            margin: 20px 50px 30px;
+            font-family: $font-p;
+
+            img{
+                margin-top: 15px;
+                width: 200px;
+                
+            }
+        }
+    }
+}
