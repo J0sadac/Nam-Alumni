@@ -10,20 +10,27 @@
         width: 900px;
         box-shadow: 1px 1px 6px;
         
-        .titulo{
-            font-family: $font-p;
-            font-size: 48px;
-
+        .encabezado{
             margin: 30px 50px;
+            text-align: center;
+
+            .titulo{
+                font-family: $font-p;
+                font-size: 48px;
+            }
         }
 
         .contenido-art{
+            display: flex;
+            flex-direction: column;
+
+            text-align: justify;
             margin: 20px 50px 30px;
             font-family: $font-p;
 
             img{
-                margin-top: 15px;
-                width: 200px;
+                margin: 15px auto 30px;
+                width: 600px;
                 
             }
         }

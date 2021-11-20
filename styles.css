@@ -8,18 +8,24 @@
   width: 900px;
   box-shadow: 1px 1px 6px;
 }
-.articulo .contenido .titulo {
+.articulo .contenido .encabezado {
+  margin: 30px 50px;
+  text-align: center;
+}
+.articulo .contenido .encabezado .titulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
-  margin: 30px 50px;
 }
 .articulo .contenido .contenido-art {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
   margin: 20px 50px 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .articulo .contenido .contenido-art img {
-  margin-top: 15px;
-  width: 200px;
+  margin: 15px auto 30px;
+  width: 600px;
 }
 
 body {
